@@ -4,7 +4,7 @@
 
 Les patients drépanocytaires sont atteints de douleurs qui nécessitent une forte dose d'opioïdes sur des durées prolongées pour les soulager. Nous savons que le cannabis est efficace sur des modèles murins. Il est aussi beaucoup plus confortable pour les patients. La question est de savoir si le pouvoir antalgique du cannabis est vraiment notable.Cette étude va donc déterminer si le cannabis inhalé est plus efficace que le placebo inhalé pour soulager la douleur chronique chez les adultes atteints de SCD.
 
-Données inventées :
+Données :
 ![Aspose Words d1ece0cb-6613-43b7-bd19-68a3d76dd335 004](https://user-images.githubusercontent.com/116463750/227732984-4b65e6ec-9dc5-4796-a79d-e93648e6fc82.png)
 
 Nous avons 16 patients drépanocytaires.
@@ -39,63 +39,90 @@ Nous allons réaliser le calcul théorique pour chaque configuration :
 
 #1
 
-Antalgique\_non Antalgique\_oui Cannabis 0 8 Placebo 8 0
+|                 | Cannabis | Placebo |
+| --------------- | -------- | ------- |
+| Antalgique_non  |     0    |    8    |
+| Antalgique_oui  |     8    |    0    |
 
 - Pour la proportion de oui sur les patients avec cannabis : 8/8 = 1 soit 100%. (Pa)
 - Pour la proportion de oui sur les patients avec placebo : 0/8 = 0 soit 0%. (Pb) Écart observé : 100% - 0% = 100% > 62.5%
 
 #2
 
-Antalgique\_non Antalgique\_oui Cannabis 1 7 Placebo 7 1
+|                 | Cannabis | Placebo |
+| --------------- | -------- | ------- |
+| Antalgique_non  |     1    |    7    |
+| Antalgique_oui  |     7    |    1    |
 
 - Pour la proportion de oui sur les patients avec cannabis : 7/8 = 0.875 soit 87.5%. (Pa)
 - Pour la proportion de oui sur les patients avec placebo : 1/8 = 0.125 soit 12.5%. (Pb) Écart observé : 87.5% - 12.5% = 75% > 62.5%
 
 #3
 
-Antalgique\_non Antalgique\_oui Cannabis 2 6 Placebo 6 2
+|                 | Cannabis | Placebo |
+| --------------- | -------- | ------- |
+| Antalgique_non  |     2    |    6    |
+| Antalgique_oui  |     6    |    2    |
 
 - Pour la proportion de oui sur les patients avec cannabis : 6/8 = 0.75 soit 75%. (Pa)
 - Pour la proportion de oui sur les patients avec placebo : 2/8 = 0.25 soit 25%. (Pb) Écart observé : 75% - 25% = 50% < 62.5%
 
 #4
 
-Antalgique\_non Antalgique\_oui Cannabis 3 5 Placebo 5 3
+|                 | Cannabis | Placebo |
+| --------------- | -------- | ------- |
+| Antalgique_non  |     3    |    5    |
+| Antalgique_oui  |     5    |    3    |
 
 - Pour la proportion de oui sur les patients avec cannabis : 5/8 = 0.625 soit 62.5%. (Pa)
 - Pour la proportion de oui sur les patients avec placebo : 3/8 = 0.375 soit 37.5%. (Pb) Écart observé : 62.5% - 37.5% = 25% < 62.5%
 
 #5
 
-Antalgique\_non Antalgique\_oui Cannabis 4 4 Placebo 4 4
+|                 | Cannabis | Placebo |
+| --------------- | -------- | ------- |
+| Antalgique_non  |     4    |    4    |
+| Antalgique_oui  |     4    |    4    |
 
 - Pour la proportion de oui sur les patients avec cannabis : 4/8 = 0.5 soit 50%. (Pa)
 - Pour la proportion de oui sur les patients avec placebo : 4/8 = 0.5 soit 50%. (Pb) Écart observé : 50% - 50% = 0% < 62.5%
 
 #6
 
-Antalgique\_non Antalgique\_oui Cannabis 5 3 Placebo 3 5
+|                 | Cannabis | Placebo |
+| --------------- | -------- | ------- |
+| Antalgique_non  |     5    |    3    |
+| Antalgique_oui  |     3    |    5    |
 
 - Pour la proportion de oui sur les patients avec cannabis : 3/8 = 0.375 soit 37.5%. (Pa)
 - Pour la proportion de oui sur les patients avec placebo : 5/8 = 0.625 soit 62.5%. (Pb) Écart observé : 62.5% - 37.5% = 25% < 62.5%
 
 #7
 
-Antalgique\_non Antalgique\_oui Cannabis 6 2 Placebo 2 6
+|                 | Cannabis | Placebo |
+| --------------- | -------- | ------- |
+| Antalgique_non  |     6    |    2    |
+| Antalgique_oui  |     2    |    6    |
 
 - Pour la proportion de oui sur les patients avec cannabis : 2/8 = 2/8 = 0.25 soit 25%. (Pa)
 - Pour la proportion de oui sur les patients avec placebo : 6/8 = 0.75 soit 75%. (Pb) Écart observé : 75% - 25% = 50% < 62.5%
 
 #8
 
-Antalgique\_non Antalgique\_oui Cannabis 7 1 Placebo 1 7
+|                 | Cannabis | Placebo |
+| --------------- | -------- | ------- |
+| Antalgique_non  |     7    |    1    |
+| Antalgique_oui  |     1    |    7    |
 
 - Pour la proportion de oui sur les patients avec cannabis : 1/8 = 0.125 soit 12.5%. (Pa)
 - Pour la proportion de oui sur les patients avec placebo : 7/8 = 0.875 soit 87.5%. (Pb) Écart observé : 87.5% - 12.5% = 75% > 62.5%
 
 #9
 
-Antalgique\_non Antalgique\_oui Cannabis 8 0 Placebo 0 8
+|                 | Cannabis | Placebo |
+| --------------- | -------- | ------- |
+| Antalgique_non  |     8    |    0    |
+| Antalgique_oui  |     0    |    8    |
 
 - Pour la proportion de oui sur les patients avec cannabis : 0/8 = 0 soit 0%. (Pa)
 - Pour la proportion de oui sur les patients avec placebo : 8/8 = 1 soit 100%. (Pb) Écart observé : 100% - 0% = 100% > 62.5%
@@ -123,9 +150,9 @@ Les patients ont émis un avis significativement favorable à l’effet antalgiq
 
 Après vérification sur R nous trouvons le résultat suivant :
 
-La P-value trouvé sur R est aussi inférieur au risque alpha de 0.05 (0.041<0.05). Nous pouvons donc confirmer le rejet de H0 et conclure.
+<img width="80%" src="https://user-images.githubusercontent.com/116463750/227733854-22866354-d37d-43a3-aaf5-002ae3997400.png">
 
-## Conclusion globale de l'étude :
+La P-value trouvé sur R est aussi inférieur au risque alpha de 0.05 (0.041<0.05). Nous pouvons donc confirmer le rejet de H0 et conclure.
 
 Les patients ont émis un avis significativement favorable à l’effet antalgique du cannabis. L’étude montre bien que le cannabis peut être un moyen de pallier aux opioïdes pour calmer les crises de douleurs des patients drépanocytaires.
 
